@@ -1,0 +1,29 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    flex:  1 1 auto;
+}
+.input{
+    width: 50%;
+}
+.wrapper{
+    width: 100%;
+    overflow: scroll;
+    height: 520px;
+    margin-top: 20px;
+}
+.wrapper::-webkit-scrollbar {
+    width: 8px;
+    height: 2px;
+    background-color: rebeccapurple;
+    border-radius: 20px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    height: 10px;
+    background-color: rebeccapurple;
+}
